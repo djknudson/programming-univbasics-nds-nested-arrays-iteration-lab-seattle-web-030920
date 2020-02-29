@@ -42,12 +42,12 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   even_total = 0
-  
+
   src.each do |i|
     if i[0] % 2 == 0 && i[1] % 2 == 0
       even_total += i[0]
       even_total += i[1]
-    end  
+    end
   end
   return even_total
 end
