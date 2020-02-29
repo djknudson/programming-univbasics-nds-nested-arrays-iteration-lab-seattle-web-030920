@@ -24,9 +24,9 @@ def find_greater_pair(src)
 
   while counter < src.length do
     if src[counter][0] > src[counter][1]
-      largest_number_array << src[0]
+      largest_number_array << src[counter][0]
     else
-      largest_number_array << src[1]
+      largest_number_array << src[counter][1]
     end
     counter += 1
   end
