@@ -23,7 +23,7 @@ def find_greater_pair(src)
   largest_number_array = Array.new
 
   while counter < src.length do
-    if src[0] > src[1]
+    if src[counter][0] > src[counter][1]
       largest_number_array << src[0]
     else
       largest_number_array << src[1]
