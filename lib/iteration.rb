@@ -30,6 +30,7 @@ def find_greater_pair(src)
     end
     counter += 1
   end
+  return largest_number_array
 end
 
 def total_even_pairs(src)
